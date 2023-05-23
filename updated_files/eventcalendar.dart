@@ -1,4 +1,4 @@
-import 'dart:math';
+ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 view: CalendarView.timelineWorkWeek,
                 firstDayOfWeek: 1, //first day of the week i Monday
                 timeSlotViewSettings: const TimeSlotViewSettings(
-                    startHour: 9, endHour: 18), // Working hours for the day
+                    startHour: 9, endHour: 17), // Working hours for the day
                 dataSource: _events,
                 specialRegions: _specialTimeRegions)));
   }
@@ -137,12 +137,12 @@ class _MyHomePageState extends State<MyHomePage> {
       'Xavier',
       'Mrs. Kays',
       'Erling',
-      'Martin',
+      'James Bond',
       'Nate',
       'Theressia',
       'Mr.Chimba',
-      'James Bond',
       'Mr. Simon',
+      'Daniel',
       'Ibu',
       'Ablert',
       'Stephen Curry',
@@ -168,6 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
       'images/Person9.jpg',
       'images/Person10.jpg',
       'images/Person11.jpg',
+      'images/Person12.jpg',
     ];
 
     _employeeCalendarResource = <CalendarResource>[];
@@ -203,3 +204,4 @@ class MeetingDataSource extends CalendarDataSource {
     resources = employeeCalendarResource;
   }
 }
+
