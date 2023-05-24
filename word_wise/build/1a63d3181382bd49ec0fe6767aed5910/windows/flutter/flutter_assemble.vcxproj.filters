@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SAI 420\Documents\xindo Documents\Courses\Mobile Application Development(MAP711S)\Assignment\word_wise\build\windows\CMakeFiles\b02a8ab5f7ab0b597ca68b194e7b88d5\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\SAI 420\Documents\xindo Documents\Courses\Mobile Application Development(MAP711S)\Assignment\word_wise\build\windows\CMakeFiles\a8163e9af095b0aa200d74330d84c96b\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\SAI 420\Documents\xindo Documents\Courses\Mobile Application Development(MAP711S)\Assignment\word_wise\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\SAI 420\Documents\xindo Documents\Courses\Mobile Application Development(MAP711S)\Assignment\word_wise\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{661AAC07-0409-3E5D-BA33-FB11FA68A4FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
