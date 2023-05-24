@@ -31,13 +31,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-           backgroundColor: Colors.white,
-           appBar: AppBar(
-        title: Text('Calendar'),
-                ),
+            backgroundColor: Colors.white,
+            appBar: AppBar(
+              title: Text('Calendar'),
+            ),
             body: SfCalendar(
                 view: CalendarView.timelineWorkWeek,
-                firstDayOfWeek: 1, //first day of the week i Monday
+                firstDayOfWeek: 1, //first day of the week is Monday
                 timeSlotViewSettings: const TimeSlotViewSettings(
                     startHour: 9, endHour: 17), // Working hours for the day
                 dataSource: _events,
@@ -56,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
       'Exam Hall',
       'Supplementary Marks releases',
       'Performance Review'
+      'Faculty meeting'
     ];
 
     var colorCollection = [
@@ -102,14 +103,14 @@ class _MyHomePageState extends State<MyHomePage> {
       'Xavier',
       'Mrs. Kays',
       'Erling',
-      'James Bond',
+      'Martin Odegaard',
       'Nate',
       'Theressia',
       'Mr.Chimba',
       'Mr. Simon',
-      'Daniel',
+      'James Bond',
       'Ibu',
-      'Ablert',
+      'Daniel',
       'Stephen Curry',
       'Bryan Cranston',
       'Johnson',
@@ -134,6 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
       'images/Person10.jpg',
       'images/Person11.jpg',
       'images/Person12.jpg',
+      'images/Person13.jpg',
     ];
 
     _employeeCalendarResource = <CalendarResource>[];
@@ -169,4 +171,3 @@ class MeetingDataSource extends CalendarDataSource {
     resources = employeeCalendarResource;
   }
 }
-
